@@ -1,0 +1,61 @@
+.hero_banner_container img {
+  height: 570px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+}
+
+.bannerText {
+  margin-top: 101px;
+  margin-left: 50px;
+  width: 35%;
+}
+
+.bannerText h1 {
+  font-size: 60;
+  color: whitesmoke;
+}
+
+.cta_btn {
+  background-color: #f5a61c;
+  border: none;
+  margin-top: 31px;
+  margin-left: 68px;
+  width: 303px;
+  height: 35px;
+  /* UI Properties */
+  text-align: left;
+  /* font: normal normal 600 25px/65px Poppins; */
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border-radius: 25px;
+  padding: 2px 16px;
+}
+
+.ribbons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+  margin-left: 68px;
+  width: 90%;
+}
+
+.ribbon_btn {
+  width: 270px;
+  height: 55px;
+  /* UI Properties */
+  text-align: left;
+  letter-spacing: 0px;
+  color: #292929;
+  opacity: 1;
+  padding: 2px 25px;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+}
